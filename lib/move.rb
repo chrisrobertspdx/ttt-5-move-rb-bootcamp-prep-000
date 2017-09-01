@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def move(board,index,player="X")
-  board[index] = " #{player} "
+  board[index] = "#{player}"
 end
 
 def input_to_index(loc)
